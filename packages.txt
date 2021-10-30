@@ -1,0 +1,10 @@
+zsh
+git
+pure
+vim
+gopass
+youtube-dl
+ffmpeg
+go
+svn
+imagemagick
