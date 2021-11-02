@@ -6,7 +6,7 @@ firefox-nightly
 keka
 kekaexternalhelper
 karabiner-elements
-gpg-suite-no-mail
+gpg-suite
 adoptopenjdk
 android-platform-tools
 virtualbox
