@@ -28,3 +28,6 @@ cakebrew
 tor-browser
 cyberduck
 google-drive
+daisydisk
+shadowsocksx-ng
+wireguard-tools
