@@ -7,7 +7,7 @@ keka
 kekaexternalhelper
 karabiner-elements
 gpg-suite
-adoptopenjdk
+temurin
 android-platform-tools
 virtualbox
 postman
