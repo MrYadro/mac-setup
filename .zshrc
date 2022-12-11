@@ -23,3 +23,5 @@ zi snippet OMZP::macos
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export SSH_AUTH_SOCK=/Users/yaroslav/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+alias lpreset="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
