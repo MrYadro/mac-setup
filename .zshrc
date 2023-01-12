@@ -26,10 +26,9 @@ zi snippet OMZP::macos
 
 HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
 if [ -f "$HB_CNF_HANDLER" ]; then
-source "$HB_CNF_HANDLER";
+  source "$HB_CNF_HANDLER";
 fi
 
 export SSH_AUTH_SOCK=/Users/yaroslav/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
 alias lpreset="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
-
