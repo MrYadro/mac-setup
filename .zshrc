@@ -5,7 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source <(curl -sL git.io/zi-loader); zzinit
+if [[ -r "/Users/yaroslav/.config/zi/init.zsh" ]]; then
+  source "/Users/yaroslav/.config/zi/init.zsh" && zzinit
+fi
 
 zi light z-shell/z-a-meta-plugins
 zi light @zsh-users+fast
@@ -30,3 +32,4 @@ fi
 export SSH_AUTH_SOCK=/Users/yaroslav/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
 alias lpreset="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
+
