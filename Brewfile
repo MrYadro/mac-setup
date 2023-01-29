@@ -33,7 +33,7 @@ brew "smartmontools"
 brew "subversion"
 brew "telnet"
 brew "tiger-vnc"
-brew "vim", link: false
+brew "vim"
 brew "virt-manager"
 brew "wget"
 brew "wireguard-tools"
