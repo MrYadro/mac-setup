@@ -1,0 +1,5 @@
+z-shell/F-Sy-H
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+z-shell/zsh-fancy-completions
+romkatv/powerlevel10k
