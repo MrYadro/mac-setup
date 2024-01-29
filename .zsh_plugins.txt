@@ -3,3 +3,9 @@ zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 z-shell/zsh-fancy-completions
 romkatv/powerlevel10k
+
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/brew
+ohmyzsh/ohmyzsh path:plugins/vscode
+ohmyzsh/ohmyzsh path:plugins/common-aliases
+ohmyzsh/ohmyzsh path:plugins/macos
