@@ -5,21 +5,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-if [[ -r "/Users/yaroslav/.config/zi/init.zsh" ]]; then
-  source "/Users/yaroslav/.config/zi/init.zsh" && zzinit
-fi
+# now, simply add these two lines in your ~/.zshrc
 
-zi light z-shell/z-a-meta-plugins
-zi light @zsh-users+fast
-zi light romkatv/powerlevel10k
+# source antidote
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 
-zi snippet OMZP::git
-zi snippet OMZP::brew
-zi snippet OMZP::vscode
-zi snippet OMZP::common-aliases
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load
 
-zi ice svn
-zi snippet OMZP::macos
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
