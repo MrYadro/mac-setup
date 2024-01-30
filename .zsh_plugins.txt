@@ -2,6 +2,7 @@ z-shell/F-Sy-H
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 z-shell/zsh-fancy-completions
+zsh-users/zsh-history-substring-search
 romkatv/powerlevel10k
 
 ohmyzsh/ohmyzsh path:plugins/git
