@@ -13,9 +13,11 @@ source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
 antidote load
 
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
 if [ -f "$HB_CNF_HANDLER" ]; then
