@@ -11,7 +11,6 @@ brew "ansible"
 brew "ansible-lint"
 brew "antidote"
 brew "zstd"
-brew "bfg"
 brew "btop"
 brew "caddy"
 brew "docker", link: false
